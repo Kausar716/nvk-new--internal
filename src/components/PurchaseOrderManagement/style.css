@@ -1,0 +1,30 @@
+.selected_alphabet {
+  background-color: #629c44;
+  /* border: 2px solid #98c65d; */
+  /* border: 1px solid #629c44;
+  background: #629c44;
+  background-color: #629c44; */
+  color: #fff;
+}
+
+.buttonStyles {
+  /* margin-top: 2em; */
+  padding: 3px;
+  /* margin: 0.3px; */
+  width: 35px;
+  border-radius: -1px;
+  /* background-color: white; */
+  border: 1px solid #629c44;
+  /* color: #629c44; */
+  margin-bottom: 2px;
+}
+
+.unselected_aplphabet {
+  background-color: white;
+  padding: 4px 10px;
+  display: block;
+  border: 1px solid #629c44;
+  color: #629c44;
+  min-width: 34px;
+  text-align: center;
+}

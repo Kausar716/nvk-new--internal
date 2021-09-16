@@ -1,0 +1,119 @@
+.subtag {
+  border: 1px solid #999999;
+  /* padding: 3px; */
+  color: white;
+  margin-left: 10px;
+  /* padding-top: 0px; */
+  padding-bottom: 0px;
+  /* margin-top: 10px; */
+  width: 100px;
+  background-color: #999999;
+  border-radius: 4px;
+}
+
+.resetlink {
+  color: rgb(52, 143, 226);
+  cursor: pointer;
+  margin-top: 2.4em;
+  font-size: 17px;
+}
+
+/* NEW SUB TAG*/
+.masterStackDiv {
+  width: auto;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.stackInput input[type="text"] {
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 0.8em;
+  float: right;
+  margin-left: 5px;
+  width: auto;
+  /* border-bottom: 2px solid black; */
+}
+
+.stackTag {
+  background-color: #707070;
+  color: white;
+  height: 20px;
+  width: auto;
+  border-radius: 10px;
+  font-size: 0.7em;
+  padding: 5px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.stackTags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: auto;
+}
+.tagCloseBtn {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+/* .tagCloseBtn:hover {
+  background-color: white;
+  cursor: pointer;
+} */
+
+/* new CSS* for tabs */
+.product_add_navigation {
+  margin-left: 4px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.product_add_navigation span {
+  border: 1px solid #5287f5;
+  padding: 14px;
+  /* padding: 10px; */
+  /* background-color: #5287f5; */
+}
+
+.selected_link {
+  cursor: pointer;
+  color: white;
+  background-color: #5287f5;
+}
+
+.normal_link {
+  cursor: pointer;
+  background: white;
+  background-color: white;
+}
+
+.input_tag_edit {
+  margin-top: -3px;
+  margin-left: 6px;
+  border: 0px;
+  outline: none;
+  /* overflow: hidden; */
+  /* //width: 100%; */
+}
+input_tag_edit:hover {
+  border: 0px;
+  visibility: hidden;
+  overflow: hidden;
+  outline: none;
+}
+input_tag_edit::selection {
+  overflow: hidden;
+  outline: none;
+}
+
+input_tag_edit:focus {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,16 @@
+.removeButton{
+background-color: #4f91f7;
+border: hidden;
+float:right;
+flex-direction: row;
+padding: 2%;
+width: 10vw;
+}
+.cancelButton{
+    background-color: white;
+    border: hidden;
+    float:right;
+    padding: 2%;
+    width: 10vw;
+
+}

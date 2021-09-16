@@ -1,0 +1,33 @@
+.formControl2 {
+  display: block;
+  /* background-color: aqua; */
+  background-color: gray;
+  background: aqua;
+  width: 100%;
+  /* height: calc(2em + .875rem + 2px); */
+  height: calc(1.75em + 0.875rem);
+  padding: 0.4375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d353c;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d5dbe0;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* .abcd {
+  background-color: #d5ecf5;
+  border:3px solid #d5ecf5
+  /* height: 200px; */
+
+
+/* .abcd:focus {
+  color: #2d353c;
+  background-color: #fff;
+  border-color: #5db0ff;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(52, 143, 226, .25)
+} */

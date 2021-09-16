@@ -1,0 +1,116 @@
+.loaderCenter {
+  /* border: 1px solid red; */
+  position: relative;
+  margin-top: -8em;
+  margin-bottom: 8em;
+}
+
+/* .disbleDivHere {
+  pointer-events: none;
+  opacity: 0.7;
+} */
+
+/* .disbleDivHere div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+} */
+
+div.is-disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.hoverINOrg {
+}
+
+img .ml-2 .btn {
+  color: "#5287F5";
+}
+
+.ml-2 .btn:hover {
+  color: white;
+}
+
+.ml-2 .btn {
+  color: #5287f5;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.resposiveImageParent img {
+  /* max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block; */
+  /* display: block;
+  max-width: 200px;
+  max-height: 95px;
+  width: auto;
+  height: auto; */
+  /* margin: 20% 20%; */
+  /* margin-right: 50%;
+  margin-left: 50%;
+  margin-top: 10%; */
+}
+
+.resposiveImageParent {
+  display: block;
+  max-width: 220px;
+  max-height: 220px;
+  /* width: 220px; */
+
+  /* height: 234px; */
+  margin: auto;
+  width: 100%;
+  height: auto;
+  /* margin-top: 11px; */
+  /* margin: 20% 20%; */
+  /* margin-right: 50%; */
+  /* margin-left: 50%; */
+  /* margin-top: 27%; */
+  height: 220px;
+  width: 220px;
+  overflow: hidden;
+
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.abcd {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  /* background-color: #d5ecf5; */
+}
+
+.backgroundImageCover {
+  /* height: 230px;
+  width: 230px; */
+  background-color: white;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+
+  position: relative;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+}

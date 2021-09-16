@@ -1,0 +1,93 @@
+.pagination_area {
+  float: right;
+}
+
+.greenText {
+  color: #629c44;
+  margin: 0em;
+  margin-right: 0.5em;
+}
+
+.form-control2 {
+  /* float: right; */
+  display: block;
+  width: 10%;
+  /* height: calc(2em + 0.875rem + 2px); */
+  padding: 0.4375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d353c;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d5dbe0;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.row_1 {
+  display: flex;
+}
+
+.row_1 div:nth-of-type(1) {
+  margin-right: 1em;
+}
+
+.row_1 div:nth-of-type(2) {
+  margin-right: 1em;
+  flex-grow: 3;
+}
+
+.row_1 div:nth-of-type(3) {
+  /* float: right;
+  flex-grow: 1; */
+
+  /* margin-left: 20em; */
+}
+
+.row_1 div select {
+  text-align: center;
+  text-align-last: center;
+  font-size: 15px;
+  /* color: #629c44; */
+}
+.row_1 div option {
+  text-align: left;
+}
+
+.page-header_PlantManager {
+  font-size: 24px;
+  margin: 0.6em;
+  /* margin: 0 0 15px; */
+  padding: 0;
+  border: none;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.dateDesign {
+  /* height: 2.5em;
+  padding-right: 17px;
+  padding-left: 0.5em;
+  width: 11em;
+  margin-right: 0em; */
+  height: 2.5em;
+  padding-right: 13px;
+  padding-left: 1em;
+  width: 11em;
+  margin-right: 0em;
+}
+
+.centerItem {
+  text-align: center;
+
+  /* margin: auto;
+  width: 60%;
+  display: flex;
+  padding: 10px; */
+  /* position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: 5px solid #ffff00;
+  padding: 10px; */
+}

@@ -1,0 +1,20 @@
+<svg id="Dashboard" xmlns="http://www.w3.org/2000/svg" width="62" height="65" viewBox="0 0 62 65">
+  <g id="Rectangle_205" data-name="Rectangle 205" transform="translate(32 23)" fill="none" stroke="#629c44" stroke-width="2.5">
+    <rect width="30" height="42" rx="2" stroke="none"/>
+    <rect x="1.25" y="1.25" width="27.5" height="39.5" rx="0.75" fill="none"/>
+  </g>
+  <g id="Group_387" data-name="Group 387">
+    <g id="Rectangle_203" data-name="Rectangle 203" transform="translate(0 0)" fill="none" stroke="#629c44" stroke-width="2.2">
+      <rect width="30" height="32" rx="2" stroke="none"/>
+      <rect x="1.1" y="1.1" width="27.8" height="29.8" rx="0.9" fill="none"/>
+    </g>
+    <g id="Rectangle_204" data-name="Rectangle 204" transform="translate(32 0)" fill="none" stroke="#629c44" stroke-width="2.2">
+      <rect width="30" height="20" rx="2" stroke="none"/>
+      <rect x="1.1" y="1.1" width="27.8" height="17.8" rx="0.9" fill="none"/>
+    </g>
+    <g id="Rectangle_206" data-name="Rectangle 206" transform="translate(0 35)" fill="none" stroke="#629c44" stroke-width="2.2">
+      <rect width="30" height="29" rx="2" stroke="none"/>
+      <rect x="1.1" y="1.1" width="27.8" height="26.8" rx="0.9" fill="none"/>
+    </g>
+  </g>
+</svg>

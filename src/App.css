@@ -1,0 +1,474 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-text {
+  vertical-align: middle;
+}
+
+.react-autosuggest__container{
+  /* background-color:gray; */
+  /* position: absolute; */
+  position: relative;
+  z-index: 10;
+  /* margin-top: 30px; */
+
+} 
+.suggestionsContainer{
+  /* background-color:yellow; */
+
+
+}
+
+.multiselect {
+  /* width: 200px; */
+}
+
+.selectBox {
+  /* position: relative; */
+}
+
+.selectBox select {
+  width: 100%;
+  /* font-weight: bold; */
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  position: absolute;
+  width: 97%;
+  background-color: white;
+  z-index: 10;
+  /* padding: 10px; */
+}
+
+#checkboxes label {
+  display: block;
+  /* position: absolute; */
+}
+select label:focus {
+  width: auto;
+  position: relative;
+}
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+.yes{
+  /* background-color:gray; */
+  /* position: absolute; */
+  position: relative;
+  z-index: 10;
+  /* margin-top: 30px; */
+  top:-35px;
+
+} 
+.no{
+  /* background-color:gray; */
+  /* position: absolute; */
+  position: relative;
+  z-index: 10;
+  margin-top: 28px;
+  top:0.1em
+
+}
+.yes1{
+  background-color:lightgray;
+  margin-top:19%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  
+
+}
+.yes1 ul{
+  background-color:lightgray;
+  margin-top:7%;
+  list-style-type:none;
+  height:300px;
+  padding:0px;
+  margin:0px;
+}
+.yellow{
+  display: none;
+}
+
+.green{
+  display:block;
+}
+.yes1 li{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  list-style-type:none;
+  padding:10px;
+  margin:0px;
+
+}
+.yes1 li:hover{
+  background-color:#629C44;
+}
+
+.yes1{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.no1{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  height: auto;
+  /* overflow: scroll;
+  overflow-x: hidden; */
+
+}
+div.a {
+  white-space: nowrap; 
+  width: 430px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#categoryActive{
+  height:252px;
+  
+  /* border:1px solid red; */
+}
+#categoryInactive{
+  height:252px;
+  /* border:1px solid red; */
+}
+div.ab {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.showElipse{
+  /* border: 1px solid #000000; */
+  background-color: #fff;
+  padding: 15px;
+  /* border-radius: 0 8px 8px 0; */
+  border-left: 6px solid #629C44;
+
+}
+.openChildData{
+  display:block;
+}
+.closeChildData{
+  display:none;
+}
+.no1 ul{
+  background-color:lightgray;
+  margin-top:7%;
+  list-style-type:none;
+  height:auto;
+  padding:0px;
+  margin:0px;
+}
+
+.no1 li{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  list-style-type:none;
+  padding:10px;
+  margin:0px;
+
+}
+.no1 li:hover{
+  background-color:#629C44;
+}
+
+
+/*****/
+.data{
+  /* background-color:gray; */
+  /* position: absolute; */
+  position: relative;
+  z-index: 10;
+  margin-top: 30px;
+  top:0.4em
+
+} 
+.data1{
+  /* background-color:gray; */
+  /* position: absolute; */
+  position: relative;
+  z-index: 10;
+  margin-top: 30px;
+  top:0.4em
+
+}
+.data1{
+  background-color:lightgray;
+  margin-top:19%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  
+
+}
+.data1 ul{
+  background-color:lightgray;
+  margin-top:7%;
+  list-style-type:none;
+  height:300px;
+  padding:0px;
+  margin:0px;
+}
+
+.data1 li{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  list-style-type:none;
+  padding:10px;
+  margin:0px;
+
+}
+.data1 li:hover{
+  background-color:#629C44;
+}
+
+.data{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.data{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  height: auto;
+  /* overflow: scroll;
+  overflow-x: hidden; */
+
+}
+.data ul{
+  background-color:lightgray;
+  margin-top:7%;
+  list-style-type:none;
+  height:auto;
+  padding:0px;
+  margin:0px;
+}
+
+.data li{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  list-style-type:none;
+  padding:10px;
+  margin:0px;
+
+}
+.data li:hover{
+  background-color:#629C44;
+}
+.react-autosuggest__suggestions-container {
+  position: absolute;
+  top: 51px;
+  width: 100%;
+}
+.react-autosuggest__suggestions-container ul{
+  background-color:lightgray;
+  margin-top:7%;
+  list-style-type:none;
+  /* height:300px; */
+  padding:0px;
+  margin:0px;
+  /* z-index: -1; */
+  
+  /* text-decoration: none; */
+  /* width:600px; */
+  /* width: auto; */
+  /* border:1px solid red; */
+}
+
+.react-autosuggest__suggestions-container li{
+  background-color:#f3f3f3;
+  margin-top:7%;
+  list-style-type:none;
+  /* height:20px; */
+  padding:10px;
+  margin:0px;
+
+  
+  /* text-decoration: none; */
+  /* width:600px; */
+  /* width: auto; */
+  /* border:1px solid red; */
+}
+.react-autosuggest__suggestions-container li:hover{
+  background-color:#629C44;
+  
+  /* text-decoration: none; */
+  /* width:600px; */
+  /* width: auto; */
+  /* border:1px solid red; */
+}
+/* .react-autosuggest__container--open{
+  background-color:gray;
+  position: absolute;
+  z-index: 4;
+  margin-top: 30px;
+  padding-top:50px;
+
+} */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.svg-inline--fa { /* target all FA icons */
+  padding-right: 10px;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 15px;
+  height: 14.7px;
+  font-weight: normal;
+  /* padding: 3px; */
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid gray;
+  /* background-color: #e7e6e7; */
+  border-radius: 50%;
+}
+.inventory_loc p{
+  color:gray;
+  display:block;
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size:14px;
+
+}
+.react-autosuggest__suggestions-list .yes{
+  position:relative;
+  background-color:orange;
+  height:100px;
+  z-index: 10;
+}
+
+.react-autosuggest__suggestions-container--open .yes{
+  /* position:relative; */
+  /* background-color:yellow; */
+  height:100px;
+  z-index: 10;
+  /* background-color:green; */
+}
+.react-autosuggest__suggestions-container--open{
+  /* position:relative; */
+  /* background-color:yellow; */
+  height:100px;
+  z-index: -10;
+  /* background-color:green; */
+}
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #629C44;
+  border: 0px solid #629C44;
+}
+.draggable {
+  top: auto !important;
+  left: auto !important;
+}
+.draggable2 {
+  top: auto !important;
+  left: auto !important;
+}
+/* .trashShake:hover {
+  font-size: 200px;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  
+} */
+/* .trashShake { transition: all .2s ease-in-out; } */
+.trashShake {
+  transform: scale(1.6);
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition:transform 1.05s ease-in-out;
+  -ms-transition:transform 1.05s ease-in-out;
+}
+
+/* .trashShake:hover {
+   -webkit-transform: scale(1.25);
+   -moz-transform: scale(1.25);
+   -o-transform: scale(1.25);
+   -ms-transform: scale(1.25);
+   transform: scale(1.25);
+} */
+/* .trashShake{transform: translateZ(4) scale(1.8, 1.8);} */
+/* .trashShake.clicked { background: orange; } */
+
+/* button.clicked:hover { background: black; } */
+/* @keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+} */

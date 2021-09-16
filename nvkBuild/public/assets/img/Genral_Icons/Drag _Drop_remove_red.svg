@@ -1,0 +1,10 @@
+<svg id="Drag__Drop_remove_red" data-name="Drag _Drop_remove_red" xmlns="http://www.w3.org/2000/svg" width="108" height="145.853" viewBox="0 0 108 145.853">
+  <g id="Group_43" data-name="Group 43" transform="translate(28.131)">
+    <path id="Path_50" data-name="Path 50" d="M996.544,319.221H974.786a11.743,11.743,0,0,1-11.73-11.73V276.374c.288,0,45.344.1,45.218,0v31.117A11.743,11.743,0,0,1,996.544,319.221Z" transform="translate(-958.458 -257.001)" fill="#f30000"/>
+    <path id="Path_51" data-name="Path 51" d="M1019.983,221.475h-5.623v-5.661a2.721,2.721,0,0,0-2.718-2.718H998.15a2.721,2.721,0,0,0-2.718,2.718v5.661h-5.623v-5.661a8.351,8.351,0,0,1,8.341-8.342h13.491a8.351,8.351,0,0,1,8.342,8.342Z" transform="translate(-977.689 -207.472)" fill="#f30000"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="54.414" height="5.623" transform="translate(0 11.191)" fill="#f30000"/>
+  </g>
+  <text id="Drag_Drop_Here_to_Remove" data-name="Drag &amp; Drop 
+Here
+to Remove" transform="translate(54 94.853)" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-53.697" y="0">Drag &amp; Drop </tspan><tspan x="-19.895" y="23">Here</tspan><tspan x="-45.329" y="46">to Remove</tspan></text>
+</svg>

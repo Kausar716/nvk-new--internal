@@ -1,0 +1,83 @@
+.SearchBar {
+  /* width: 50%;
+  border: 1px solid grey; */
+  /* box-shadow: -4px 7px 20px 0px rgba(0, 0, 0, 0.54); */
+  box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 35%);
+}
+
+.SearchBar input {
+  /* width: 50%;
+  border: none; */
+  /* box-sizing: border-box; */
+  padding: 10px 5px;
+  outline: none;
+}
+
+.SearchBar ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 35%);
+}
+
+.SearchBar li::before {
+  content: "";
+}
+
+.SearchBar li {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.SearchBar li:hover {
+  background-color: grey;
+  /* text-decoration: underline; */
+}
+
+.checkBoxHide {
+  visibility: hidden;
+}
+
+.boxCreation {
+  display: flex;
+}
+
+.boxCreation .plusSignInQuote:nth-of-type() {
+  visibility: hidden;
+}
+
+/* .ordersCard .boxCreation span:nth-of-type(1n + 0) {
+  background-color: pink;
+  color: pink;
+  border: 2px solid yellow;
+} */
+
+.plusSignInQuote {
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  color: #b2b2b2;
+  padding-top: 26px;
+  margin-top: 9px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/* .ordersCard .span:last-child {
+  background: #ff0000;
+  border: 2px solid yellow;
+} */
+
+.equalSign2 {
+  position: relative;
+  margin-top: 11px;
+  /* margin-left: 1px; */
+  margin-right: -35px;
+  background-color: white;
+  /* padding-right: 1em; */
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #b2b2b2;
+  border: 10px solid white;
+}

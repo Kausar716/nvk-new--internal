@@ -1,0 +1,4 @@
+<svg id="DragDragto_place" xmlns="http://www.w3.org/2000/svg" width="55" height="44.89" viewBox="0 0 55 44.89">
+  <path id="Path_64" data-name="Path 64" d="M27.056,13.078l-4.463-4.2a.787.787,0,0,0-1.327.573v1.838H16.013V6.038h1.838a.787.787,0,0,0,.573-1.327L14.226.247a.787.787,0,0,0-1.147,0L8.88,4.711a.787.787,0,0,0,.573,1.327h1.838v5.251H6.038V9.451a.787.787,0,0,0-1.327-.575l-4.463,4.2a.787.787,0,0,0,0,1.147l4.463,4.2a.787.787,0,0,0,1.327-.573V16.013h5.251v5.251H9.451a.787.787,0,0,0-.575,1.328l4.2,4.463a.787.787,0,0,0,1.147,0l4.2-4.463a.787.787,0,0,0-.573-1.327H16.013V16.013h5.251v1.838a.787.787,0,0,0,1.327.573l4.463-4.2a.787.787,0,0,0,0-1.147Z" transform="translate(13 0)" fill="#b4b4b4"/>
+  <text id="Drag_to_Sort" data-name="Drag to Sort" transform="translate(0 41.89)" fill="#4e4e4e" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Drag to Sort</tspan></text>
+</svg>

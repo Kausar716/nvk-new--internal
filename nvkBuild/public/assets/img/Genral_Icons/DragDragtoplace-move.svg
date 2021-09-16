@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="103.951" viewBox="0 0 104 103.951">
+  <g id="DragDragtoplace-move" transform="translate(1 1)">
+    <g id="Group_77" data-name="Group 77" transform="translate(27.918)">
+      <g id="arrow-down-sign-to-navigate" transform="translate(24.048 45.509) rotate(-90)">
+        <path id="Path_21" data-name="Path 21" d="M22.754,25.942a3.178,3.178,0,0,1-2.253-.933L.934,5.44A3.187,3.187,0,0,1,5.44.933L22.754,18.248,40.068.934a3.187,3.187,0,0,1,4.507,4.507L25.007,25.009A3.178,3.178,0,0,1,22.754,25.942Z" transform="translate(0 0)" fill="#b4b4b4" stroke="#b4b4b4" stroke-width="2"/>
+      </g>
+      <g id="arrow-down-sign-to-navigate-2" data-name="arrow-down-sign-to-navigate" transform="translate(0 41.674) rotate(-90)">
+        <path id="Path_21-2" data-name="Path 21" d="M18.919,21.569a2.642,2.642,0,0,1-1.873-.776L.776,4.524A2.65,2.65,0,0,1,4.524.776l14.4,14.4,14.4-14.4a2.65,2.65,0,0,1,3.747,3.748l-16.27,16.27A2.642,2.642,0,0,1,18.919,21.569Z" transform="translate(0 0)" fill="#b4b4b4" stroke="#b4b4b4" stroke-width="2"/>
+      </g>
+    </g>
+    <text id="Drag_Drop_to_Place" data-name="Drag &amp; Drop
+to Place" transform="translate(51 74.951)" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-51.332" y="0">Drag &amp; Drop</tspan><tspan x="-34.595" y="23">to Place</tspan></text>
+  </g>
+</svg>

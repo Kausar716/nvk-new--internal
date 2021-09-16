@@ -1,0 +1,942 @@
+/* .action_area_left {
+  margin-right: 10em;
+}
+
+.textRight_OrderSettings {
+  text-align: right;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 6em;
+}
+
+.smallFont {
+  font-size: 0.7em;
+}
+
+.subFont {
+  padding-top: 5px;
+}
+
+.updownSymbolContainer {
+  float: left;
+  padding-right: 0.9%;
+}
+
+.updownSymbol {
+  font-size: 30px;
+  margin-top: 0.2em;
+}
+
+.sub_menu_nameD {
+  background-color: rgb(240, 240, 240);
+  padding: 3px;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-left: 0.3em;
+  margin-right: -0em;
+  padding-left: 2vh;
+}
+
+.containerBox {
+  border: 1px solid #d3d3d3;
+  margin-left: 0.3em;
+  margin-top: -0.5em;
+  margin-right: -0em;
+  position: relative;
+  padding-bottom: 1em;
+}
+
+.row_1_Notification {
+  display: flex;
+  margin: 1em;
+}
+
+.row_1_Notification label {
+  display: block;
+  font-weight: bold;
+  margin: 0em;
+}
+.row_1_Notification span {
+  margin-left: 0.4em;
+}
+
+.notification_label {
+  flex: 1;
+}
+
+.alertIcon {
+  font-size: 1.5rem;
+  margin-left: -0.5em;
+  color: #357ebd;
+  padding-left: 5px;
+} */
+
+.AdminHeader {
+  background-color: #357ebd;
+  /* padding: 30px; */
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  /* text-align: left; */
+  padding: 16px 15px;
+  border-radius: 8px;
+}
+
+.SubHeader {
+  border: 2px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: white;
+  height: 2.5rem;
+  /* color: white; */
+  padding-left: 1rem;
+  font-weight: bold;
+  padding-top: 3px;
+  /* font-weight: bolder; */
+  /* margin-left: 0.29rem; */
+  position: relative;
+  margin-top: 0.5em;
+}
+
+.fontSizeH {
+  /* font-family: "Roboto"; */
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+.subFont {
+  /* font-family: "Roboto"; */
+  /* font-size: 17px; */
+  /* font-weight: lighter; */
+  padding-top: 5px;
+  font-size: 18.4px;
+}
+
+.ddcard {
+  padding: 2rem;
+}
+
+.subHeadingLabels_intrestRates {
+  font-weight: bold;
+  color: #333333;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+.subHeadingLabels1 {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: -1.5em;
+  margin-left: 0.3em;
+  margin-top: 1em;
+}
+
+.smallFont {
+  font-size: 0.7em;
+}
+.textRightTax {
+  text-align: left;
+  padding: 0.3em;
+  border-radius: 0.3em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 14em;
+}
+
+.avgInutBox {
+  text-align: left;
+  padding: 0.3em;
+  border-radius: 0.3em;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  width: 7em;
+}
+
+.textRight {
+  text-align: right;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 13em;
+}
+
+.textRight_OrderSettings {
+  text-align: right;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 6em;
+}
+
+.textRightIntrestRate {
+  text-align: right;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 5em;
+}
+
+.headButton {
+  margin-bottom: 1rem;
+  margin: 1%;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  background: #9cb8e6;
+}
+
+.updownSymbol {
+  font-size: 30px;
+  margin-top: 0.2em;
+  /* fontWeight: bold; */
+  font-weight: bold;
+}
+
+.updownSymbolContainer {
+  float: left;
+  padding-right: 0.9%;
+  padding-top: 4px;
+}
+
+/* .list_container {
+  display: flex;
+  flex-direction: row;
+  height: 35vh;
+} */
+
+.left-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+}
+
+.center-col {
+  flex: 1;
+  background: rgb(245, 243, 243);
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  width: 3rem;
+  height: 16rem;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e7e7e7;
+}
+
+.buttonGrp {
+  width: 9rem;
+  height: 2rem;
+}
+
+.secondHeader {
+  border: 2px;
+  width: 100%;
+  background-color: #c0c0c0;
+  height: 1.8rem;
+  font-size: 0.9em;
+  color: #ebebeb;
+  padding-left: 1rem;
+  font-weight: bold;
+  padding-top: 0.4%;
+  margin-top: 1em;
+  margin-left: 0.29em;
+}
+
+.alertIcon {
+  font-size: 1.5rem;
+  margin-left: -0.5em;
+  color: #357ebd;
+  padding-left: 5px;
+}
+
+.NotificationAdjust {
+  /* color: red;
+    background-color: red; */
+  margin-top: -1.2rem;
+}
+.NotificationAdjustlabel {
+  margin-left: -4%;
+}
+
+.NotificationAdjustlabel2 {
+  margin-left: -6rem;
+}
+
+.pecentageMove {
+  margin-left: -20rem;
+}
+
+.container1 {
+  border: 2px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #357ebd;
+  height: 3rem;
+  font-family: "Roboto";
+  font-size: 25px;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-left: 0.29rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  height: 6vh;
+}
+
+.truckDesign {
+  color: #ffff;
+  font-size: 3.5rem;
+  border: 2px solid #4c8cc4;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #9abede;
+}
+
+.truckDesignTempo {
+  color: #ffff;
+  font-size: 3.5rem;
+  border: 2px solid #4c8cc4;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #9abede;
+  transform: rotateY(180deg);
+}
+
+.boxContainer {
+  border: solid #d3d3d3;
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+  overflow-y: scroll;
+  border-radius: 6px;
+  height: 30vh;
+}
+
+.buttonList {
+  width: 100%;
+  background: #ffffff;
+  border: hidden;
+  padding: 4%;
+  text-align: left;
+}
+
+.input-icons i {
+  position: absolute;
+  margin-top: 0.7em;
+  margin-left: 1em;
+}
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 85%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.textBold {
+  display: block;
+  font-weight: bold;
+  margin-left: -1.4em;
+}
+
+.comeUp {
+  margin-top: 2em;
+}
+
+.moveLeft {
+  margin-left: -1.4rem;
+  margin-top: 1em;
+
+  font-size: 0.8em;
+}
+.moveLeft1 {
+  margin-left: -0.7rem;
+  font-size: 1em;
+  margin-top: 0.6em;
+}
+
+.containerBox {
+  /* border-style: groove; */
+  border: 1px solid white;
+  margin-left: 0.3em;
+  margin-top: -0.5em;
+  margin-right: -0em;
+  position: relative;
+  padding-bottom: -2em;
+  background-color: white;
+}
+
+.moveRightButtons {
+  float: right;
+}
+
+.buttonTopMargin1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #357ebd;
+  border-color: #357ebd;
+}
+.buttonTopMargin1:hover {
+  background-color: #357ebd;
+  border-color: #357ebd;
+}
+
+.spacebelow {
+  margin-bottom: 1em;
+}
+
+.moveRight {
+  margin-right: -1rem;
+  font-size: 16px;
+  margin-top: 0.35em;
+  margin-left: 0.3rem;
+}
+
+.moveLittleInCPR {
+  margin-left: 0.15em;
+  margin-top: 0.27em;
+}
+
+.allside {
+  margin: 1em;
+}
+
+/* New CSS */
+
+.sub_menu_nameD {
+  background-color: white;
+  padding: 3px;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-left: 0.3em;
+  margin-right: -0em;
+  padding-left: 2vh;
+  font-size:16.6px;
+}
+.sub_menu_nameuser {
+  background-color: rgb(240, 240, 240);
+  padding: 3px;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: -0em;
+  padding-left: 3vh;
+}
+
+.categories_data1 .sub_menu_name1 {
+  background-color: lightgray;
+  padding: 3px;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+.sub_menu1 {
+  border: 1px solid lightgray;
+  margin-left: 0.5em;
+}
+
+.radioButtons {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.radio-inline {
+  margin-right: 1em;
+}
+
+.insideRadio {
+  width: 1rem;
+  height: 1rem;
+  margin: 5px;
+}
+
+.headerbar_plant {
+  background-color: #357ebd;
+  /* padding:30px; */
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  /* text-align:left; */
+  padding: 16px 15px;
+  border-radius: 8px;
+
+  /* vertical-align: middle; */
+}
+.sub_header {
+  background-color: #357ebd;
+
+  font-size: 1.3em;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.divsion_1 {
+  flex: 3;
+  /* border:1px solid red; */
+  padding: 10px;
+}
+.divsion_1 .input_field1 label {
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1em;
+}
+.divsion_1 .input_field1 input {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+/* style={{width:"68%",padding:5,border:"1px solid lightgray"}}  */
+.divsion_1 .sub_input input {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+.divsion_1 p {
+  /* font-size: 40px;
+    color:red; */
+  padding: 30px;
+  color: #357ebd;
+}
+
+.divsion_2 {
+  flex: 4;
+  /* border:1px solid red; */
+  padding: 10px;
+  /* padding-left: 10px; */
+}
+.divsion_3 {
+  flex: 1;
+  margin-top: -0.8em;
+  /* margin: auto 10px; */
+
+  /* border:1px solid red; */
+  padding: 20px 30px;
+}
+.divsion_4 {
+  flex: 4;
+  /* border:1px solid red; */
+  padding: 10px;
+}
+.scroller_container5 ul {
+  height: 260px;
+  width: 100%;
+  border: 1px solid gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.scroller_container5 ul li {
+  padding: 10px;
+  /* border:1px solid red; */
+}
+.divsion_2 p {
+  color: #357ebd;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+.divsion_4 p {
+  color: #357ebd;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+.scroller_container5 ul li:hover {
+  padding: 10px;
+  /* border:1px solid red; */
+  background-color: #d0e8fd;
+}
+.scroller_container5 ul li:first-child {
+  padding: 10px;
+  /* border:1px solid red; */
+  background-color: #d0e8fd;
+}
+.show_category {
+  display: block;
+}
+.hide_category {
+  display: none;
+  /* display: block; */
+  animation: showNav 250ms ease-in-out both;
+}
+.divsion_3 Button {
+  display: block;
+  margin-top: 14%;
+  /* margin:auto 33%; */
+
+  width: 100px;
+  background-color: white;
+  color: gray;
+}
+.divsion_3 Button:first-child {
+  margin-top: 24%;
+
+  background-color: #357ebd;
+  color: white;
+}
+.scroller_container5 ul {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.sub_header_menu {
+  padding: 4px;
+  background-color: #9abede;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2em;
+  /* font-weight: bold; */
+}
+.sub_header_menu i {
+  color: white;
+}
+.categories_data1 .sub_menu_name1 {
+  background-color: lightgray;
+  padding: 3px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.sub_menu1 {
+  border: 1px solid lightgray;
+}
+
+.parentButtons {
+  position: relative;
+  margin-top: 1em;
+}
+
+.button_styleA {
+  padding: 6px;
+  border: 2px solid #3071a9;
+  margin: 1em;
+  width: 70px;
+  border-radius: 4px;
+  background-color: #3071a9;
+  color: white;
+}
+
+.topSpace {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+
+.errorDocD {
+  color: red;
+}
+
+.inputBoxDesign {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+}
+
+.inputBoxDesign2 {
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+}
+
+/* textarea {
+  overflow: auto;
+  resize: vertical;
+  padding: 0.5em;
+  border: 2px solid #d3d3d3;
+  border-radius: 0.5em;
+  outline: none;
+} */
+
+.topSpace {
+  margin-top: 0.5em;
+}
+
+.dsaDocDetails {
+  color: #333333;
+  font-style: italic;
+  margin-top: -12px;
+}
+
+.moveLeftESetting {
+  margin-left: -1.5rem;
+  margin-top: 0.7em;
+  font-family: "Roboto";
+  font-size: 0.8em;
+}
+
+.textRightESetting {
+  text-align: right;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  width: 6em;
+}
+
+.button_style_Tools_Setting_Save {
+  padding: 6px;
+  border: 2px solid #357ebd;
+  margin: 1em;
+  width: 80px;
+  border-radius: 4px;
+  margin-right: -10em;
+  background-color: #357ebd;
+  color: white;
+}
+.button_style_Tools_Setting_Save1 {
+  padding: 6px;
+  border: 2px solid lightgray;
+  margin: 1em;
+  width: 80px;
+  border-radius: 4px;
+  margin-right: -10em;
+  background-color: lightgray;
+  color: white;
+}
+
+.button_style_Tools_Setting_Cancel {
+  width: 80px;
+  padding: 7px;
+  background-color: white;
+  color: #606060;
+  border: 1px solid white;
+  border-radius: 4px;
+  /* margin-right: -6em; */
+  border: 1px solid #606060;
+}
+
+.active_inactive-margin {
+  margin-top: 0.5em;
+}
+
+.row_1_Notification {
+  display: flex;
+  margin: 1em;
+}
+
+.smallFont {
+  font-size: 0.9em;
+}
+
+.label_Notification {
+  margin-left: -10.7rem;
+
+  /* margin-right: -4em; */
+  font-size: 0.9em;
+  margin-top: 0.6em;
+}
+
+.row_1_Notification label {
+  display: block;
+  font-weight: bold;
+  margin: 0em;
+}
+
+.notification_label {
+  flex: 1;
+}
+
+.row_1_Notification span {
+  margin-left: 0.4em;
+}
+
+.action_area_left {
+  margin-right: 10em;
+}
+
+.row_1_intrestRate {
+  display: flex;
+  margin: 1em;
+}
+
+.row_1_intrestRate label {
+  display: block;
+  font-weight: bold;
+  margin: 0em;
+}
+
+.intrestRate_label {
+  flex: 1 1;
+}
+
+.removeText {
+  margin-left: 1.5em;
+  color: #157af6;
+  position: absolute;
+  margin-top: 7px;
+}
+.menu-bar {
+  text-align: center;
+  background-color: brown;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+.menu-bar li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.borderPictureBox {
+  width: 13rem;
+  height: 9rem;
+
+  position: absolute;
+  margin-left: 0em;
+  border-radius: 1em;
+  background-color: #eeee;
+}
+
+.avatarInDocumentDetails {
+  display: flex;
+}
+
+/* The container */
+.containerC {
+  position: relative;
+  margin-right: 1em;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerC input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffff;
+  border: 2px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+/* .containerC:hover input ~ .checkmark {
+    background-color: #ccc;
+  } */
+
+/* When the radio button is checked, add a blue background */
+.containerC input:checked ~ .checkmark {
+  background-color: #ffff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerC input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerC .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #666666;
+}
+
+.row_1 {
+  display: flex;
+}
+
+.subHeadingLabels {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 8px;
+  margin: 0;
+  margin-top: 1em;
+  /* margin-left: 1.3em; */
+}
+
+.subHeadingLabels_intrestRates {
+  font-weight: bold;
+  color: #333333;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+.subHeadingLabels1 {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: -1.5em;
+  margin-left: 0.3em;
+  margin-top: 1em;
+}
+
+.reasonBackground {
+  /* background-color: red;
+  background: red; */
+  background-color: #d5ecf5;
+  border-radius: 2px solid grey;
+  padding-left: 10px;
+  /* padding: 3px; */
+  /* margin-top: -2px; */
+  /* width: 90%; */
+  /* height: 30px; */
+  border-radius: 0.6em;
+}
+
+
+.reasonBackground1 {
+  /* background-color: red;
+  background: red; */
+  background-color: #d5ecf5;
+  border-radius: 2px solid grey;
+  padding-left: 10px;
+  padding: 3px;
+  margin-top: -2px;
+  width: 90%;
+  border-radius: 0.4em;
+  margin:1px
+}

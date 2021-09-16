@@ -1,0 +1,25 @@
+.tooltip-inner {
+    background-color: rgba(219, 219, 216, 0.904) ;
+    color: #000000;
+     padding-top:10px;
+     font-size:13px;
+     width:400px;
+    /* margin:0; */ 
+    
+  }
+  
+  .bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .bs-tooltip-bottom .arrow::before{
+      border-bottom-color: rgba(219, 219, 216, 0.904) ;
+  }
+  
+  .bs-tooltip-auto[x-placement^="top"] .arrow::before, .bs-tooltip-top .arrow::before{
+      border-top-color:rgba(219, 219, 216, 0.904) ;
+  }
+  
+  .bs-tooltip-auto[x-placement^="left"] .arrow::before, .bs-tooltip-left .arrow::before{
+      border-left-color: rgba(219, 219, 216, 0.904) ;
+  }
+  
+  .bs-tooltip-auto[x-placement^="right"] .arrow::before, .bs-tooltip-right .arrow::before{
+      border-right-color: rgba(219, 219, 216, 0.904) ;
+  }
